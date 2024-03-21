@@ -1,2 +1,26 @@
 # Placar
- Placar para campeonatos de jiu-jitsu
+ Placar para campeonatos de jiu-jitsu:
+ - Escrever e salvar o nome do torneio;
+ - Inserir informações:
+  - Nome e equipe dos atletas 1 e 2;
+  - Número da chave e opção de indicar quantas lutas serão feitas: Chave 3: 1/3;
+  - Nome do mesário, árbitro e fiscal de área;
+  - Categorias;
+  - Tempo;
+- Salvar as informações e continuar;
+- Painel com as informações: atleta 1 e 2, tempo e pontuação;
+- Pontuação:
+ - 2 (raspagem e queda)
+ - 3 passagem de guarda;
+ - 4 montada e pegada pelas costas;
+ - Vantagem;
+ - Punição;
+- O usuário pode pausar e dar play no tempo quando quiser;
+- Quando acabar o tempo o relógio zera com as informações da luta salva;
+- Variações de vitória:
+ - Decisão do árbitro;
+ - pontuação;
+ - w.o;
+- Finalizar:
+ - Salva as informações em um banco de dados;
+ - Redireciona a página de inserir informações para uma nova luta; 
