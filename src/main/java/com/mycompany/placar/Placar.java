@@ -9,9 +9,22 @@ package com.mycompany.placar;
  *
  * @author fernanda.nunes
  */
-public class Placar {
+import javax.swing.*;
+
+public class Placar extends JFrame{
+    JLabel tela = new JLabel();
+    public  Placar(){
+        tela.setBounds(150,150,150,150);
+        
+    }
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Placar form=new Placar();
+        form.setBounds(0,0,600,400);
+        form.setLocationRelativeTo(null);
+        form.setLayout(null);
+        form.setTitle("Placar");
+        form.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        form.setVisible(true);
     }
 }
